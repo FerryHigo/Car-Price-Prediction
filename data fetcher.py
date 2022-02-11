@@ -88,4 +88,6 @@ for x in range(pageStart,334):
 if q2 == False:
         print(f"Ran into a network problem please try again at page{x}")
         input("Press Enter to exit")    
+if x == 334:
+    print("Reading data from Truecar website is done now!!")
 cnx.close()
